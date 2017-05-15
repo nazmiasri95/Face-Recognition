@@ -15,5 +15,5 @@ This project consist of 3 parts, which are:
 5. Lastly, run face_recognition.py
 
 ## Credit to:
-Anirban from TheCodacus. Link: http://thecodacus.com/
-All rights reserved to the respective owner
+#### Anirban from TheCodacus. Link: http://thecodacus.com/
+#### All rights reserved to the respective owner
