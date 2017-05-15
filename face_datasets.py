@@ -46,11 +46,11 @@ while(True):
         # Display the video frame, with bounded rectangle on the person's face
         cv2.imshow('frame', image_frame)
 
-    # 100ms for each face image
+    # To stop taking video, press 'q' for at least 100ms
     if cv2.waitKey(100) & 0xFF == ord('q'):
         break
 
-    # If the count more than 100, stop taking face image
+    # If image taken reach 100, stop taking video
     elif count>100:
         break
 
