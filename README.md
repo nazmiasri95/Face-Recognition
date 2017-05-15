@@ -1,4 +1,4 @@
-# Face-Recognition
+# Face Recognition using Haar-Cascade Classifier, OpenCV, and Python
 Simple Face Recognition algorithm using Python and OpenCV
 
 ## Outline
