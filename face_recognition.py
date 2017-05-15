@@ -44,19 +44,14 @@ while True:
 
         # Check the ID if exist 
         if(Id == 1):
-            Id = "Daus"
-        elif(Id == 2):
             Id = "Nazmi"
-        elif(Id == 3):
-            Id = "Azry"
-        elif(Id == 4):
-            Id = "Fadzil"
         #If not exist, then it is Unknown
         else:
             Id = "Unknown"
 
         # Put text describe who is in the picture
-        cv2.putText(im, str(Id), (x-20,y-40), font, 2, (0,255,0), 4)
+        cv2.rectangle(im, (x-22,y-90), (x+w+22, y-22), (0,255,0), -1)
+        cv2.putText(im, str(Id), (x,y-40), font, 2, (255,255,255), 3)
 
     # Display the video frame with the bounded rectangle
     cv2.imshow('im',im) 
