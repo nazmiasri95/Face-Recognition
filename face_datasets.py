@@ -7,7 +7,7 @@
 # Import OpenCV2 for image processing
 import cv2
 
-# Start capturing vid_ideo 
+# Start capturing video 
 vid_cam = cv2.VideoCapture(0)
 
 # Detect object in video stream using Haarcascade Frontal Face
