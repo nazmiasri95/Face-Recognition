@@ -1,3 +1,9 @@
+####################################################
+# Modified by Nazmi Asri                           #
+# Original code: http://thecodacus.com/            #
+# All right reserved to the respective owner       #
+####################################################
+
 # Import OpenCV2 for image processing
 import cv2
 
