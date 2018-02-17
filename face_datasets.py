@@ -6,6 +6,12 @@
 
 # Import OpenCV2 for image processing
 import cv2
+import os
+
+def assure_path_exists(path):
+    dir = os.path.dirname(path)
+    if not os.path.exists(dir):
+        os.makedirs(dir)
 
 # Start capturing video 
 vid_cam = cv2.VideoCapture(0)
@@ -18,6 +24,8 @@ face_id = 1
 
 # Initialize sample face image
 count = 0
+
+assure_path_exists("dataset/")
 
 # Start looping
 while(True):

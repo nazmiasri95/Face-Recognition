@@ -10,11 +10,20 @@ import cv2
 # Import numpy for matrices calculations
 import numpy as np
 
+import os 
+
+def assure_path_exists(path):
+    dir = os.path.dirname(path)
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+
 # Create Local Binary Patterns Histograms for face recognization
-recognizer = cv2.face.createLBPHFaceRecognizer()
+recognizer = cv2.face.LBPHFaceRecognizer_create()
+
+assure_path_exists("trainer/")
 
 # Load the trained mode
-recognizer.load('trainer/trainer.yml')
+recognizer.read('trainer/trainer.yml')
 
 # Load prebuilt model for Frontal Face
 cascadePath = "haarcascade_frontalface_default.xml"
