@@ -55,18 +55,15 @@ while True:
         cv2.rectangle(im, (x-20,y-20), (x+w+20,y+h+20), (0,255,0), 4)
 
         # Recognize the face belongs to which ID
-        Id = recognizer.predict(gray[y:y+h,x:x+w])
+        Id, confidence = recognizer.predict(gray[y:y+h,x:x+w])
 
         # Check the ID if exist 
         if(Id == 1):
-            Id = "Nazmi"
-        #If not exist, then it is Unknown
-        else:
-            Id = "Unknown"
+            Id = "Nazmi {0:.2f}%".format(round(100 - confidence, 2))
 
         # Put text describe who is in the picture
         cv2.rectangle(im, (x-22,y-90), (x+w+22, y-22), (0,255,0), -1)
-        cv2.putText(im, str(Id), (x,y-40), font, 2, (255,255,255), 3)
+        cv2.putText(im, str(Id), (x,y-40), font, 1, (255,255,255), 3)
 
     # Display the video frame with the bounded rectangle
     cv2.imshow('im',im) 
