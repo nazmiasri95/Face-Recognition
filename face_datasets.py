@@ -13,7 +13,7 @@ def assure_path_exists(path):
     if not os.path.exists(dir):
         os.makedirs(dir)
 
-# Start capturing video 
+# Start capturing video
 vid_cam = cv2.VideoCapture(0)
 
 # Detect object in video stream using Haarcascade Frontal Face
@@ -44,7 +44,7 @@ while(True):
 
         # Crop the image frame into rectangle
         cv2.rectangle(image_frame, (x,y), (x+w,y+h), (255,0,0), 2)
-        
+
         # Increment sample face image
         count += 1
 
