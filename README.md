@@ -1,6 +1,9 @@
 # Face Recognition using Haar-Cascade Classifier, OpenCV, and Python
 Simple Face Recognition algorithm using Python and OpenCV
 
+# Blog
+http://utpcc.blogspot.com/2017/05/facial-recognition-machine-learning.html
+
 ## Requirement
 - Python 3.6
 - `pip install opencv-contrib-python`
