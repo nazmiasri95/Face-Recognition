@@ -18,7 +18,7 @@ backports.shutil-get-terminal-size==1.0.0
 beautifulsoup4==4.6.3
 bitarray==0.8.3
 black==18.9b0
-bleach==1.5.0
+bleach==3.1.2
 blinker==1.4
 blis==0.2.4
 boto==2.49.0
