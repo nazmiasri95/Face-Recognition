@@ -214,7 +214,7 @@ python-crfsuite==0.9.6
 python-dateutil==2.7.5
 python-Levenshtein==0.12.0
 pytz==2018.7
-PyYAML==3.13
+PyYAML==5.4
 pyzmq==17.1.2
 QtAwesome==0.5.3
 qtconsole==4.4.3
