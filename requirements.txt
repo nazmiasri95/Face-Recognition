@@ -60,7 +60,7 @@ fastcache==1.0.2
 fastprogress==0.1.20
 filelock==3.0.10
 Flask==1.0.2
-Flask-Cors==3.0.6
+Flask-Cors==3.0.9
 funcy==1.11
 future==0.17.1
 fuzzywuzzy==0.17.0
