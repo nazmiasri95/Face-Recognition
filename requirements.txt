@@ -158,7 +158,7 @@ nvidia-ml-py3==7.352.0
 oauth2client==3.0.0
 oauthlib==2.1.0
 olefile==0.46
-opencv-contrib-python==4.0.0.21
+opencv-contrib-python==4.2.0.32
 openpyxl==2.5.12
 packaging==18.0
 pandas==0.23.4
