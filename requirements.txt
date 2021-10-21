@@ -11,7 +11,7 @@ astroid==2.1.0
 atomicwrites==1.2.1
 attrs==18.2.0
 Automat==0.7.0
-Babel==2.6.0
+Babel==2.9.1
 backcall==0.1.0
 backports.os==0.1.1
 backports.shutil-get-terminal-size==1.0.0
