@@ -271,7 +271,7 @@ Twisted==18.9.0
 twython==3.7.0
 typed-ast==1.1.0
 typing==3.6.6
-ujson==1.35
+ujson==5.4.0
 unicodecsv==0.14.1
 Unidecode==1.0.23
 uritemplate==3.0.0
