@@ -131,7 +131,7 @@ matplotlib==3.0.2
 mccabe==0.6.1
 memory-profiler==0.55.0
 memprof==0.3.4
-mistune==0.8.4
+mistune==2.0.3
 mkl-fft==1.0.10
 mkl-random==1.0.2
 more-itertools==4.3.0
